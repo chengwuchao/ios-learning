@@ -9,6 +9,7 @@ import UIKit
 
 class LabelButtonView: UIView {
 
+    @IBOutlet weak var okButton: UIButton!
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -31,5 +32,9 @@ class LabelButtonView: UIView {
             }
     
     
-
+    @IBAction func okButtonOnClick(_ sender: UIButton) {
+        
+        print("Ok Button Onclick！")
+    }
+    
 }

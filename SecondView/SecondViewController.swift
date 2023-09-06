@@ -28,7 +28,7 @@ class SecondViewController: UIViewController {
         
         label.textAlignment = NSTextAlignment.center;
         
-         self.view.addSubview(label);
+       //  self.view.addSubview(label);
         
        // let owner = UIView(frame: CGRect(x:700,y:400, width: 40, height: 60 ))
         
@@ -40,7 +40,9 @@ class SecondViewController: UIViewController {
         label2.frame = CGRect(x: (screen.size.width - labelWidth) / 2, y: labelTopView, width: labelWidth, height: labelHeight)
         label2.textAlignment = NSTextAlignment.center;
         
-        self.view.addSubview(label2);
+      //  self.view.addSubview(label2);
+        
+         labelButton.isUserInteractionEnabled = true
         
         self.view.addSubview(labelButton);
         

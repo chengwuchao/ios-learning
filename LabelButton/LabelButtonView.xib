@@ -19,6 +19,9 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="ok"/>
+                    <connections>
+                        <action selector="okButtonOnClick:" destination="-1" eventType="touchUpInside" id="JWg-vh-65U"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
