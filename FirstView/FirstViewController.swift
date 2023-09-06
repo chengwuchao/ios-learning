@@ -14,12 +14,22 @@ import UIKit
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // 创建视图 viewA
+        let viewA = UIView();
+        viewA.backgroundColor = UIColor.gray;
+        viewA.frame = CGRect(x: 0, y: 0, width: 300, height: 400);
+        self.view.addSubview(viewA);
         
-        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
-        label.center = view.center
-        label.textAlignment = .center
-        label.text = "label"
-        self.view.addSubview(label)
+        // 创建视图 viewB
+        
+        let viewB = UIView();
+        viewB.backgroundColor = UIColor.green;
+        viewB.frame = CGRect(x: 50, y: 100, width: 100, height: 200);
+        
+        viewA.addSubview(viewB);
+        
+        
+        
     }
     
 
