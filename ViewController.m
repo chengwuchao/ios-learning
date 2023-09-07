@@ -26,7 +26,7 @@
     firstViewCtl.title = @"first view controller";
     firstViewCtl.view.backgroundColor = [UIColor whiteColor];
     firstViewCtl.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"rename first" image: nil tag:1];//自定义tabBarItem,可以贴tabBarItem背景图片，如果不写，tabBarItem的标签将显示为firstViewCtl.title内容
-    secondViewCtrl = [[LabelButtonViewController alloc] init];
+    secondViewCtrl = [[AlertViewController alloc] init];
     secondViewCtrl.title = @"second view controller";
    // secondViewCtrl.view.backgroundColor = [UIColor whiteColor];
     secondViewCtrl.tabBarItem.badgeValue = [NSString stringWithFormat:@"%d",8]; //tabBarItem红色小圈中显示数字
