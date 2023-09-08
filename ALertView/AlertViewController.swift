@@ -30,6 +30,24 @@ class AlertViewController: UIViewController {
         self.view.addSubview(buttonAlertView);
     }
     
+    @objc func testAlertView() {
+        let alertController: UIAlertController = UIAlertController(title: "Alert", message: "Alert text goes here", preferredStyle: UIAlertController.Style.alert)
+        
+        
+        let noAction = UIAlertAction(title: "NO", style: .default) { UIAlertAction in
+          print("Tap NO Button")
+        }
+        
+        let yesAction = UIAlertAction(title: "YES", style: .default) { UIAlertAction in
+          print("Tap YES Button")
+        }
+        
+        alertController.addAction(noAction)
+        alertController.addAction(yesAction)
+        
+        
+    }
+ 
    
 
     /*
