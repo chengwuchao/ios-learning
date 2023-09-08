@@ -9,7 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SimpleTableViewController : UITableViewController
+
+@interface SimpleTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
 
